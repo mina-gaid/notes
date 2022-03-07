@@ -1,0 +1,190 @@
+# Python Notes
+
+Python's [documentation](https://docs.python.org/3/) is great, but this has some helpful reminders for getting back up to speed.
+
+- [Basics](Basics.md)
+  - Math Operators
+  - Data Types
+  - String Concatenation and Replication
+  - Variables
+  - Comments
+  - The print() Function
+  - The input() Function
+  - The len() Function
+  - The str(), int(), and float() Functions
+- [Flow Control](flow-control.md)
+  - Comparison Operators
+  - Boolean evaluation
+  - Boolean Operators
+  - Mixing Boolean and Comparison Operators
+  - if Statements
+  - else Statements
+  - elif Statements
+  - while Loop Statements
+  - break Statements
+  - continue Statements
+  - for Loops and the range() Function
+  - For else statement
+  - Importing Modules
+  - Ending a Program Early with sys.exit()
+- [Functions](functions.md)
+  - Return Values and return Statements
+  - The None Value
+  - Keyword Arguments and print()
+  - Local and Global Scope
+  - The global Statement
+- [Exception Handling](exception-handling.md)
+  - Basic exception handling
+  - Final code in exception handling
+- [Lists-and-Tuples](Lists-and-Tuples.md)
+  - Getting Individual Values in a List with Indexes
+  - Negative Indexes
+  - Getting Sublists with Slices
+  - Getting a List’s Length with len()
+  - Changing Values in a List with Indexes
+  - List Concatenation and List Replication
+  - Removing Values from Lists with del Statements
+  - Using for Loops with Lists](using-for-loops-with-lists)
+  - Looping Through Multiple Lists with zip()
+  - The in and not in Operators
+  - The Multiple Assignment Trick
+  - Augmented Assignment Operators
+  - Finding a Value in a List with the index() Method
+  - Adding Values to Lists with the append() and insert() Methods
+  - Removing Values from Lists with remove()
+  - Removing Values from Lists with pop()
+  - Sorting the Values in a List with the sort() Method
+  - Tuple Data Type
+  - Converting Types with the list() and tuple() Functions
+- [Dictionaries and Structuring Data](dictionaries.md)
+  - The keys(), values(), and items() Methods
+  - Checking Whether a Key or Value Exists in a Dictionary
+  - The get() Method
+  - The setdefault() Method
+  - Pretty Printing
+  - Merge two dictionaries
+- [sets](sets.md)
+  - Initializing a set
+  - sets: unordered collections of unique elements
+  - set add() and update()
+  - set remove() and discard()
+  - set union()
+  - set intersection
+  - set difference
+  - set symetric_difference
+- [itertools Module](itertools-module.md)
+  - accumulate()
+  - combinations()
+  - combinations_with_replacement()
+  - count()
+  - cycle()
+  - chain())
+  - compress()
+  - dropwhile()
+  - filterfalse()
+  - groupby()
+  - islice()
+  - permutations()
+  - product()
+  - repeat()
+  - starmap()
+  - takewhile()
+  - tee()
+  - zip_longest()
+- [Comprehensions](comprehensions.md)
+  - List comprehension
+  - Set comprehension
+  - Dict comprehension
+- [Manipulating Strings](manipulating-strings.md)
+  - Escape Characters
+  - Raw Strings
+  - Multiline Strings with Triple Quotes
+  - Indexing and Slicing Strings
+  - The in and not in Operators with Strings
+  - The in and not in Operators with list
+  - The upper(), lower(), isupper(), and islower() String Methods
+  - The isX String Methods
+  - The startswith() and endswith() String Methods
+  - The join() and split() String Methods
+  - Justifying Text with rjust(), ljust(), and center()
+  - Removing Whitespace with strip(), rstrip(), and lstrip()
+  - Copying and Pasting Strings with the pyperclip Module (need pip install)
+- [String Formatting](string-formatting.md)
+  - % operator
+  - String Formatting (str.format)
+  - Lazy string formatting
+  - Formatted String Literals or f-strings (Python 3.6+)
+  - Template Strings
+- [Regular Expressions](regular-expressions.md)
+  - Matching Regex Objects
+  - Grouping with Parentheses
+  - Matching Multiple Groups with the Pipe
+  - Optional Matching with the Question Mark
+  - Matching Zero or More with the Star
+  - Matching One or More with the Plus
+  - Matching Specific Repetitions with Curly Brackets
+  - Greedy and Nongreedy Matching
+  - The findall() Method
+  - Making Your Own Character Classes
+  - The Caret and Dollar Sign Characters
+  - The Wildcard Character
+  - Matching Everything with Dot-Star
+  - Matching Newlines with the Dot Character
+  - Review of Regex Symbols
+  - Case-Insensitive Matching
+  - Substituting Strings with the sub() Method
+  - Managing Complex Regexes]
+- [Handling File and Directory Paths](file-and-directory-paths.md)
+  - Backslash on Windows and Forward Slash on OS X and Linux
+  - The Current Working Directory
+  - Creating New Folders
+  - Absolute vs. Relative Paths
+  - Handling Absolute and Relative Paths
+  - Checking Path Validity
+  - Finding File Sizes and Folder Contents
+  - Copying Files and Folders
+  - Moving and Renaming Files and Folders
+  - Permanently Deleting Files and Folders
+  - Safe Deletes with the send2trash Module
+  - Walking a Directory Tree
+- [Reading and Writing Files](reading-and-writing-files.md)
+  - The File Reading/Writing Process
+  - Opening and reading files with the open() function
+  - Writing to Files
+  - Saving Variables with the shelve Module
+  - Saving Variables with the pprint.pformat() Function
+  - Reading ZIP Files
+  - Extracting from ZIP Files
+  - Creating and Adding to ZIP Files
+- [JSON, YAML and configuration files](json-yaml-and-configuration-files.md)
+  - JSON
+  - YAML
+  - Anyconfig
+- [Debugging](debugging.md)
+  - Raising Exceptions
+  - Getting the Traceback as a String
+  - Assertions
+  - Logging
+  - Logging Levels
+  - Disabling Logging
+  - Logging to a File
+- [Lambda Functions](lambda-functions.md)
+  - Ternary Conditional Operator
+- [args and kwargs](args-and-kwargs.md)
+  - Things to Remember(args)
+  - Things to Remember(kwargs)
+- [Context Manager](context-manager.md)
+  - with statement
+  - Writing your own contextmanager using generator syntax
+- [`__main__` Top-level script environment](__main__-top-level-script-environment.md)
+  - Advantages
+- [setup.py](setup.md)
+- [Dataclasses](dataclasses.md)
+  - Features
+  - Default values
+  - Type hints
+- [Virtual Environment](virtual-environment.md)
+  - virtualenv
+  - poetry
+  - pipenv
+  - anaconda
